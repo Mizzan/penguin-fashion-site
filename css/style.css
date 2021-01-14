@@ -1,0 +1,152 @@
+/* ----------------- Google fonts -------------- 
+-------------------------------------------------
+*/
+
+/* Bebas Neue */
+/* font-family: 'Bebas Neue', cursive; */
+
+/* Roboto */
+/* font-family: 'Roboto', sans-serif; */
+
+/* ----------------- Global Styles -------------- 
+-------------------------------------------------
+*/
+
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+  line-height: 1;
+}
+
+h5,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.title-h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+.title-h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.title-h5 {
+  font-size: 1.625em;
+  font-weight: bold;
+}
+
+.orange-highlight {
+  color: #fabe4c;
+}
+.custom-btn {
+  color: #fff;
+  width: 170px;
+  height: 60px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #a4bc46, #85a019);
+}
+
+.no-border {
+  border: 0;
+  border-radius: 25px;
+}
+
+/* ----------------- header section -------------- 
+-------------------------------------------------
+*/
+.header-content {
+  margin-top: 50px;
+}
+
+.header-title {
+  font-size: 3.5rem;
+}
+.header-text {
+  width: 295px;
+}
+
+.header-image {
+  max-width: 400px;
+}
+
+/* ----------------- Woman section -------------- 
+-------------------------------------------------
+*/
+
+.woman-section {
+  margin-top: 100px;
+}
+.woman-section img,
+.man-section img {
+  width: 250px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* ----------------- Man section -------------- 
+-------------------------------------------------
+*/
+
+.man-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* ----------------- About section -------------- 
+-------------------------------------------------
+*/
+
+.about-card-icon {
+  width: 80px;
+}
+
+/* ----------------- About section -------------- 
+-------------------------------------------------
+*/
+
+.contact-section {
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* ----------------- contact section -------------- 
+-------------------------------------------------
+*/
+
+.contact-section,
+footer {
+  background-color: rgba(208, 227, 247, 0.4);
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+input::placeholder {
+  font-family: roboto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+/* ----------------- footer section -------------- 
+-------------------------------------------------
+*/
+
+.footer-text {
+  font-size: 1rem;
+}
+
+/* ----------------- Media queries section -------------- 
+-------------------------------------------------
+*/
