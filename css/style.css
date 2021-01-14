@@ -74,6 +74,12 @@ p {
   max-width: 400px;
 }
 
+/* 
+----------------------
+--------- Modified the navlink and a --------------
+----------------------
+*/
+
 li > a {
   font-family: roboto;
   font-weight: bold;
@@ -133,7 +139,7 @@ footer {
 }
 
 input {
-  width: 400px;
+  width: 20rem;
   height: 50px;
   border: 2px solid rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -155,6 +161,6 @@ input::placeholder {
   font-size: 1rem;
 }
 
-/* ----------------- Media queries section -------------- 
+/* ----------------- Thank You-------------- 
 -------------------------------------------------
 */
