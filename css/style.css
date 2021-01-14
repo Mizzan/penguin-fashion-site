@@ -74,6 +74,14 @@ p {
   max-width: 400px;
 }
 
+li > a {
+  font-family: roboto;
+  font-weight: bold;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
 /* ----------------- Woman section -------------- 
 -------------------------------------------------
 */
